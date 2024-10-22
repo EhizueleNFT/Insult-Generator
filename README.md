@@ -36,7 +36,7 @@ nodemon index.js
 
 * **Get A Random Insult**: This generates random insults gotten from a public API everytime you click the button.
 
-## Project Structure
+## The Structure
 
 * **index.js**: The main entry point of the application.
 * **views/**: Contains the EJS templates for rendering the HTML pages.
@@ -48,7 +48,7 @@ nodemon index.js
 * Body-parser: Middleware for parsing incoming request bodies.
 * Axios: Promise based HTTP client for the browser and node.js
 
-## Acknowledgments
+## Acknowledgment
 
 Original Author of this project: [EhizueleNFT](https://github.com/EhizueleNFT/)
 
