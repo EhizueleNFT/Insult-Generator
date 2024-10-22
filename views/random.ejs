@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Insult Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prociono&display=swap" 
+   rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+<div class="image-boy">
+  <h1> Insult Generator 🥵</h1>
+</div>
+
+   <div> 
+       <p> 
+         <button id="RANDOM" type="submit" onclick="window.location.href=`/random`">WANT SOME MORE?</button>
+       </p>
+   </div>
+   
+
+    <div class="word">
+        <div class="number">
+          <p> Number: <%= content.number%> </p>
+        </div>
+
+        <div class="language">
+          <p> Language: <%= content.language%> </p>
+        </div>
+
+        <div class="insult">
+          <p> Insult: <%= content.insult%> </p>
+        </div>
+      
+    </div>
+
+ <footer>
+        <p class="foots" my-3> To many more accomplishments🔥 EhizueleNFT ©2024 </p>
+ </footer>   
+</body>
+</html>
